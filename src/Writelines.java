@@ -24,7 +24,8 @@ public class Writelines
     
         try
         {
-            Writelines cp = new Writelines(args[0]);
+            Writelines cp = new Writelines("file.txt");
+        
         }
         catch(IOException ex)
         {
